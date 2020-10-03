@@ -1,0 +1,31 @@
+TO FIND THE PATHS BETWEEN STATION X AND Y, RUN COMMAND:
+
+path(X,Y).
+
+
+
+
+There are a lot of paths between two stations and as far as i have checked my program returns all the distinct paths correctly
+Example : from aiims to iitDelhi, there are around 1000 possible distinct paths, i am positive that any two stations will have similar or more number of paths since all the cycles are possible in the graph.
+
+
+You can run any two stations, If found any discrepancy in the path, I can assure you that it is only because of some discrepancy in my database, it might be the case that there are spelling difference of same station in different lines. I myself had found a few discrepencies in output paths but all those were resolved only by correcting some blunder spelling mistakes in the database.
+For example, i faced problems because "peeraGarhi" and "peeragarhi" were typed at two different places. Only similar problems will affect the output.
+
+
+
+
+If by chance you find path discrepancy in your example, i strongly suggest you to please try various other stations.
+
+
+SAMPLE OUTPUT :
+
+
+ aiims,greenPark,[Yellow->Magenta]hauzKhas,iitDelhi,
+true ;
+
+
+Here, [YELLOW -> MAGENTA] Change happens at hauzKhas.
+
+
+

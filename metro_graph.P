@@ -1,0 +1,568 @@
+
+
+/********  author @ Kabir Juneja, 2017ucs0043, IIT Jammu **********/
+
+
+
+% red line
+edge(shaheedSthal,hindonRiver).
+edge(arthala,hindonRiver).
+edge(arthala,mohanNagar).
+edge(mohanNagar,shyamPark).
+edge(shyamPark,majorMohitSharma).
+edge(majorMohitSharma,rajBagh).
+edge(shaheedNagar,rajBagh).
+edge(dilshadGarden,shaheedNagar).
+edge(jhilMil,dilshadGarden).
+edge(jhilMil,mansarovarPark).
+edge(mansarovarPark,shahdara).
+edge(shahdara,welcome).
+edge(welcome,seelampur).
+edge(seelampur,shastriPark).
+edge(shastriPark,kashmereGate).
+edge(kashmereGate,tisHazari).
+edge(tisHazari,pulBangash).
+edge(pulBangash,pratapNagar).
+edge(pratapNagar,shastriNagar).
+edge(shastriNagar,inderlok).
+edge(inderlok,kanhaiyaNagar).
+edge(kanhaiyaNagar,keshavPuram).
+edge(keshavPuram,netajiSubhashPlace).
+edge(netajiSubhashPlace,kohatEnclave).
+edge(kohatEnclave,pitamPura).
+edge(pitamPura,rohiniEast).
+edge(rohiniWest,rohiniEast).
+edge(rohiniWest,rithala).
+
+% green line
+edge(inderlok,ashokParkMain).
+edge(ashokParkMain,punjabiBagh).
+edge(punjabiBagh,shivajiPark).
+edge(shivajiPark,madipur).
+edge(madipur,paschimViharEast).
+edge(paschimViharEast,paschimViharWest).
+edge(paschimViharWest,peeragarhi).
+edge(peeragarhi,udyogNagar).
+edge(udyogNagar,maharajaSurajmalStadium).
+edge(maharajaSurajmalStadium,nangloi).
+edge(nangloi,nangloiRailwayStation).
+edge(nangloiRailwayStation,rajdhaniPark).
+edge(rajdhaniPark,mundka).
+edge(mundka,mundkaIndustrialArea).
+edge(mundkaIndustrialArea,ghevraMetroStation).
+edge(ghevraMetroStation,tikriKalan).
+edge(tikriKalan,tikriBorder).
+edge(tikriBorder,panditShreeRamSharma).
+edge(panditShreeRamSharma,bahdurgarhCity).
+edge(bahdurgarhCity,brigadierHoshiarSingh).
+edge(ashokParkMain,satguruRamSinghMarg).
+edge(kirtiNagar,satguruRamSinghMarg).
+
+
+%Violet Line
+edge(kashmereGate,lalQuila).
+edge(kashmereGate,jamaMasjid).
+edge(delhiGate,jamaMasjid).
+edge(delhiGate,ito).
+edge(mandiHouse,ito).
+edge(mandiHouse,janpath).
+edge(centralSecretariat,janpath).
+edge(centralSecretariat,khanMarket).
+edge(jawaharlalNehruStadium,khanMarket).
+edge(jawaharlalNehruStadium,jangpura).
+edge(lajpatNagar,jangpura).
+edge(lajpatNagar,moolchand).
+edge(kailashColony,moolchand).
+edge(kailashColony,nehruPlace).
+edge(kalkajiMandir,nehruPlace).
+edge(govindPuri,kalkajiMandir).
+edge(govindPuri,okhla).
+edge(okhla,jasola).
+edge(jasola,saritaVihar).
+edge(saritaVihar,mohanEstate).
+edge(mohanEstate,tughlakabad).
+edge(tughlakabad,badarpurBorder).
+edge(badarpurBorder,sarai).
+edge(nhpcChowk,sarai).
+edge(nhpcChowk,mewalaMaharajpur).
+edge(mewalaMaharajpur,sector28Faridabad).
+edge(sector28Faridabad,badkalMor).
+edge(badkalMor,oldFaridabad).
+edge(oldFaridabad,neelamChowk).
+edge(neelamChowk,bataChowk).
+edge(bataChowk,escortsMujesar).
+edge(santSurdasSihi,escortsMujesar).
+edge(santSurdasSihi,rajaNaharSingh).
+
+
+
+
+
+% Magenta Line
+
+edge(janakPuriWest, dabriMorJanakpuriSouth).
+edge(dabriMorJanakpuriSouth,dashrathPuri).
+edge(dashrathPuri,palam).
+edge(palam,sadarBazaarCantonment).
+edge(sadarBazaarCantonment,terminal1IGIAirport).
+edge(terminal1IGIAirport,shankarVihar).
+edge(vasantVihar,shankarVihar).
+edge(vasantVihar,munirka).
+edge(munirka,rkPuram).
+edge(rkPuram,iitDelhi).
+edge(iitDelhi,hauzKhas).
+edge(hauzKhas,panchsheelPark).
+edge(panchsheelPark,chiragDelhi).
+edge(greaterKailash,chiragDelhi).
+edge(greaterKailash,nehruEnclave).
+edge(nehruEnclave,kalkajiMandir).
+edge(okhlaNSIC,kalkajiMandir).
+edge(okhlaNSIC,sukhdevVihar).
+edge(sukhdevVihar,jamiaMilliaIslamia).
+edge(okhlaVihar,jamiaMilliaIslamia).
+edge(okhlaVihar,jasolaViharShaheenBagh).
+edge(jasolaViharShaheenBagh,kalindiKunj).
+edge(kalindiKunj,okhlaBirdSanctuary).
+edge(okhlaBirdSanctuary,botanicalGarden).
+
+
+
+%pink line
+
+
+edge(majlisPark, azadpur).
+edge(azadpur,shalimarBagh).
+edge(netajiSubhashPlace,shalimarBagh).
+edge(shakurpur,netajiSubhashPlace).
+edge(shakurpur,punjabiBaghWest).
+edge(esiBasaiDarapur,punjabiBaghWest).
+edge(esiBasaiDarapur,rajouriGarden).
+edge(mayaPuri,rajouriGarden).
+edge(mayaPuri,narainaVihar).
+edge(delhiCantt,narainaVihar).
+edge(delhiCantt,durgabaiDeshmukhSouthCampus).
+edge(sirVishweshwaraiahMotiBagh,durgabaiDeshmukhSouthCampus).
+edge(sirVishweshwaraiahMotiBagh,bhikajiCamaPlace).
+edge(bhikajiCamaPlace,sarojiniNagar).
+edge(dilliHaatINA,sarojiniNagar).
+edge(dilliHaatINA,southExtension).
+edge(southExtension,lajpatNagar).
+edge(vinobapuri,lajpatNagar).
+edge(vinobapuri,ashram).
+edge(saraiKaleKhanHazratNizamuddin,ashram).
+edge(mayurViharPhase1,saraiKaleKhanHazratNizamuddin).
+edge(mayurViharPhase1,mayurViharPocket1).
+edge(trilokpuriSanjayLake,mayurViharPocket1).
+edge(trilokpuriSanjayLake,vinodNagarEast).
+edge(mandawaliWestVinodNagar,vinodNagarEast).
+edge(mandawaliWestVinodNagar,ipExtension).
+edge(anandVihar,ipExtension).
+edge(anandVihar,karkarDuma).
+edge(karkarDumaCourt,karkarDuma).
+edge(karkarDumaCourt,krishnaNagar).
+edge(eastAzadNagar,krishnaNagar).
+edge(eastAzadNagar,welcome).
+edge(welcome,jaffrabad).
+edge(maujpur,jaffrabad).
+edge(gokulpuri,maujpur).
+edge(gokulpuri,johriEnclave).
+edge(shivVihar,johriEnclave).
+
+
+
+
+%Blue Line
+
+edge(dwarkaSector21, dwarkaSector8).
+edge(dwarkaSector8,dwarkaSector9).
+edge(dwarkaSector10,dwarkaSector9).
+edge(dwarkaSector10,dwarkaSector11).
+edge(dwarkaSector12,dwarkaSector11).
+edge(dwarkaSector12,dwarkaSector13).
+edge(dwarkaSector13,dwarkaSector14).
+edge(dwarka,dwarkaSector14).
+edge(dwarka,dwarkaMor).
+edge(dwarkaMor,nawada).
+edge(uttamNagarWest,nawada).
+edge(uttamNagarWest,uttamNagarEast).
+edge(janakPuriWest,janakPuriEast).
+edge(tilakNagar,janakPuriEast).
+edge(tilakNagar,subhashNagar).
+edge(tagoreGarden,subhashNagar).
+edge(tagoreGarden,rajouriGarden).
+edge(rameshNagar,rajouriGarden).
+edge(rameshNagar,motiNagar).
+edge(kirtiNagar,motiNagar).
+edge(kirtiNagar,shadipur).
+edge(shadipur,patelNagar).
+edge(patelNagar,rajendraPlace).
+edge(karolBagh,rajendraPlace).
+edge(karolBagh,jhandewalan).
+edge(rkAshramMarg,jhandewalan).
+edge(rkAshramMarg,rajivChowk).
+edge(barakhamba,rajivChowk).
+edge(barakhamba,mandiHouse).
+edge(supremeCourt,mandiHouse).
+edge(supremeCourt,indraprastha).
+edge(yamunaBank,indraprastha).
+edge(yamunaBank,akshardham).
+edge(mayurViharPhase1,akshardham).
+edge(mayurViharPhase1,mayurViharExtension).
+edge(newAshokNagar,mayurViharExtension).
+edge(newAshokNagar,noidaSector15).
+edge(noidaSector15,noidaSector16).
+edge(noidaSector18,noidaSector16).
+edge(noidaSector18,botanicalGarden).
+edge(golfCourse,botanicalGarden).
+edge(golfCourse,noidaCityCenter).
+edge(noidaSector34,noidaCityCenter).
+edge(noidaSector52,noidaSector34).
+edge(noidaSector52,noidaSector61).
+edge(noidaSector59,noidaSector61).
+edge(noidaSector59,noidaSector62).
+edge(noidaElectronicCity,noidaSector62).
+
+
+edge(yamunaBank,laxmiNagar).
+edge(nirmanVihar,laxmiNagar).
+edge(nirmanVihar,preetVihar).
+edge(karkarDuma,preetVihar).
+edge(kaushambi,anandVihar).
+edge(kaushambi,vaishali).
+
+
+%yellow line
+
+
+edge(samaypurBadli, rohiniSector1819).
+edge(haiderpurBadliMor,jahangirpuri).
+edge(adarshNagar,azadpur).
+edge(modelTown,azadpur).
+edge(modelTown,guruTegBahadurNagar).
+edge(vishwavidyalaya,guruTegBahadurNagar).
+edge(vishwavidyalaya,vidhanSabha).
+edge(civilLines,vidhanSabha).
+edge(civilLines,kashmereGate).
+edge(chandniChowk,kashmereGate).
+edge(chandniChowk,chawriBazar).
+edge(newDelhi,chawriBazar).
+edge(newDelhi,rajivChowk).
+edge(patelChowk,rajivChowk).
+edge(patelChowk,centralSecretariat).
+edge(udyogBhawan,centralSecretariat).
+edge(udyogBhawan,lokKalyanMarg).
+edge(jorBagh,lokKalyanMarg).
+edge(jorBagh,dilliHaatINA).
+edge(aiims,dilliHaatINA).
+edge(aiims,greenPark).
+edge(greenPark,hauzKhas).
+edge(malviyaNagar,hauzKhas).
+edge(malviyaNagar,saket).
+edge(qutabMinar,saket).
+edge(qutabMinar,chhattarpur).
+edge(sultanpur,chhattarpur).
+edge(sultanpur,ghitorni).
+edge(arjanGarh,ghitorni).
+edge(arjanGarh,guruDronacharya).
+edge(sikandarpur,guruDronacharya).
+edge(sikandarpur,mgRoad).
+edge(iffcoChowk,mgRoad).
+edge(iffcoChowk,hudaCityCenter).
+
+
+
+
+
+%AQUA LINE
+edge(noidaSector51,noidaSector50).
+edge(noidaSector76,noidaSector50).
+edge(noidaSector76,noidaSector101).
+edge(noidaSector81,noidaSector101).
+edge(noidaSector81,nsezNoida).
+edge(noidaSector83,nsezNoida).
+edge(noidaSector83,noidaSector137).
+edge(noidaSector142,noidaSector137).
+edge(noidaSector143,noidaSector144).
+edge(noidaSector144,noidaSector145).
+edge(noidaSector145,noidaSector146).
+edge(noidaSector147,noidaSector146).
+edge(noidaSector147,noidaSector148).
+edge(knowledgePark2,noidaSector148).
+edge(knowledgePark2,pariChowkGreaterNoida).
+edge(alpha1GreaterNoida,pariChowkGreaterNoida).
+edge(alpha1GreaterNoida,delta1GreaterNoida).
+edge(gnidaOffice,delta1GreaterNoida).
+edge(gnidaOffice,depotGreaterNoida).
+
+
+
+% GRAY LINE
+edge(dwarka,nangli).
+edge(nangli,najafgarh).
+
+
+
+% Airport Express
+edge(newDelhi,shivajiStadium).
+edge(dhaulaKuan,shivajiStadium).
+edge(dhaulaKuan,delhiAerocity).
+edge(igiAirport,delhiAerocity).
+edge(igiAirport,dwarkaSector21).
+
+
+
+
+redline([shaheedSthal,
+	    hindonRiver,
+	    arthala,
+	    mohanNagar,
+	    shyamPark,
+	    majorMohitSharma,
+	    rajBagh,
+	    shaheedNagar,
+	    dilshadGarden,
+	    jhilMil,
+	    mansaroverPark,
+	    shahdara,
+	    welcome,
+	    seelampur,
+	    shastriPark,
+	    kashmereGate,
+	    tisHazari,
+	    pulBangash,
+	    pratapNagar,
+	    shastriNagar,
+	    inderlok,
+	    kanhaiyaNagar,
+	    keshavPuram,
+	    netajiSubhashPlace,
+	    kohatEnclave,
+	    pitamPura,
+	    rohiniEast,
+	    rohiniWest,
+	    rithala]).
+
+blueline([dwarkaSector21,
+	     dwarkaSector8,
+	     dwarkaSector9,
+	     dwarkaSector10,
+	     dwarkaSector11,
+	     dwarkaSector12,
+	     dwarkaSector13,
+	     dwarkaSector14,
+	     dwarka,
+	     dwarkaMor,
+	     nawada,
+	     uttamNagarWest,
+	     uttamNagarEast,
+	     janakPuriWest,
+	     janakPuriEast,
+	     tilakNagar,
+	     subhashNagar,
+	     tagoreGarden,
+	     rajouriGarden,
+	     rameshNagar,
+	     motiNagar,
+	     kirtiNagar,
+	     shadipur,
+	     patelNagar,
+	     rajendraPlace,
+	     karolBagh,
+	     jhandewalan,
+	     rkAshramMarg,
+	     rajivChowk,
+	     barakhamba,
+	     mandiHouse,
+	     supremeCourt,
+	     indraprastha,
+	     yamunaBank,
+	     akshardham,
+	     mayurViharPhase1,
+	     mayurViharExtention,
+	     newAshokNagar,
+	     noidaSector15,
+	     noidaSector16,
+	     noidaSector18,
+	     botanicalGarden,
+	     golfCourse,
+	     noidaCityCenter,
+	     noidaSector34,
+	     noidaSector52,
+	     noidaSector61,
+	     noidaSector59,
+	     noidaSector62,
+	     noidaElectronicCity,
+	     laxmiNagar,
+	     nirmanVihar,
+	     preetVihar,
+	     karkarDuma,
+	     anandVihar,
+	     kaushambi,
+	     vaishali	     
+	     ]).
+	     
+
+violetline([kashmereGate,
+	       lalQuila,
+	       jamaMasjid,
+	       delhiGate,
+	       ito,
+	       mandiHouse,
+	       janpath,
+	       centralSecretariat,
+	       khanMarket,
+	       jawaharlalNehruStadium,
+	       jangpura,
+	       lajpatNagar,
+	       moolchand,
+	       kailashColony,
+	       nehruPlace,
+	       kalkajiMandir,
+	       govindPuri,
+	       okhla,
+	       jasola,
+	       saritaVihar,
+	       mohanEstate,
+	       tughlakabad,
+	       badarpurBorder,
+	       sarai,
+	       nhpcChowk,
+	       mewalaMaharajpur,
+	       sector28Faridabad,
+	       badkalMor,
+	       oldFaridabad,
+	       neelamChowkAjronda,
+	       bataChowk,
+	       escortsMujesar,
+	       santSurdasSihi,
+	       rajaNaharSingh]).
+
+
+yellow([adarshNagar,aiims,arjanGarh,azadpur,centralSecretariat,chandniChowk,chawriBazar,chhatarpur,civilLines,ghitorni,greenPark,gtbNagar,guruDronacharya,haiderpur,hauzKhas,hudaCityCentre,iffcoChowk,ina,jahangirpuri,jorBagh,kashmereGate,lokKalyanMarg,malviyaNagar,mgRoad,modelTown,newDelhi,patelChowk,qutabMinar,rajivChowk,rohiniSector18,saket,samaypurBadli,sikandarpur,sultanpur,udyogBhawan,vidhanSabha,vishwaVidyalaya]).
+green([ashokParkMain,bahadurgarhCity,brigadierHoshiyarSingh,ghevra,inderlok,madipur,maharajaSurajmalStadium,mundka,mundkaIndustrialArea,nangloi,nangloiRailwayStation,panditShreeRamSharma,paschimViharEast,paschimViharWest,peeragarhi,punjabiBagh,rajdhaniPark,satguruRamSinghMarg,shivajiPark,tikriBorder,tikriKalan,udyogNagar]).
+grey([dwarka,najafgarh,nangli]).
+magenta([janakPuriWest,dabriMor,dashrathPuri,palam,sadarBazaarCantonment,terminal1IGIAirport,shankarVihar,vasantVihar,munirka,rkPuram,iitDelhi,hauzKhas,panchsheelPark,chiragDelhi,greaterKailash,nehruEnclave,kalkajiMandir,okhlaNSIC,sukhdevVihar,jamiaMilliaIslamia,okhlaVihar,jasolaViharShaheenBagh,kalindiKunj,okhlaBirdSanctuary,botanicalGarden]).
+pink([majlisPark,azadpur,shalimarBagh,netajiSubhashPlace,shakurpur,punjabiBaghWest,esiBasaiDarapur,rajouriGarden,mayaPuri,narainaVihar,delhiCantt,durgabaiDeshmukhSouthCampus,sirVishweshwaraiahMotiBagh,bhikajiCamaPlace,dilliHaatINA,southExtension,lajpatNagar,vinobapuri,ashram,saraiKaleKhanHazratNizamuddin,mayurVihar1,mayurViharPocket1,trilokpuriSanjayLake,vinodNagarEast,mandawali,ipExtension,anandVihar,karkarduma,karkardumaCourt,krishnaNagar,eastAzadNagar,welcome,jaffrabad,maujpur,gokulpuri,johriEnclave,shivVihar]).
+orange([shivajiStadium,dhaulaKuan,delhiAerocity,igiAirport,dwarkaSector21]).
+
+interchange([anandVihar,azadpur,botanicalGarden,centralSecretariat,dwarka,dwarkaSector21,hauzKhas,ina,inderlok,janakpuriWest,kalkajiMandir,karkarduma,kashmereGate,kirtiNagar,lajpatNagar,mandiHouse,mayurVihar1,netajiSubhashPlace,newDelhi,rajivChowk,rajouriGarden,welcome]).
+
+
+
+
+
+
+
+
+
+% test data sample
+/*
+edge(iitDelhi,hauzKhas).
+edge(aiims,greenPark).
+edge(greenPark,hauzKhas).
+*/
+
+
+
+
+
+
+
+
+
+
+
+%predicate that has truth assignment based on whether station X and head Y of rest of the path [Y|_] are on the same line
+sameline(X,[]).
+sameline(X,[Y|_]) :-  blueline(A), member(X,A), member(Y,A) ;
+		  redline(B), member(X,B), member(Y,B);
+		  yellow(B), member(X,B), member(Y,B);
+		  magenta(B), member(X,B), member(Y,B);
+		  orange(B), member(X,B), member(Y,B);
+		  pink(B), member(X,B), member(Y,B);
+		  grey(B), member(X,B), member(Y,B);
+		  green(B), member(X,B), member(Y,B);
+		  violetline(C), member(X,C), member(Y,C).
+		  
+
+
+% making the graph undirected
+ connected(X,Y) :- edge(Y,X).
+ connected(X,Y) :- edge(X,Y).
+ 
+ 
+ 
+% is the next station of the path on different line from the the current station?
+isChanging(_,[]).
+isChanging(_,[H]).
+isChanging(X, [_|T]) :- (
+ 		    sameline(X,T)
+ 		    -> true ;
+ 		    write("["), lineof(X), write("->"), lineofhead(T), write("]")
+ 		    ).
+
+
+ % print the path including all the line changes.
+ printList([]).
+ printList([H|T]):- 
+ 
+ 			(
+ 			isInterchange(T) 
+ 			-> write(H), write(","), isChanging(H,T), printList(T);
+ 			write(H), write(","), printList(T)
+ 			).
+
+
+
+
+% is the first station H of the path [H|_] an interchange station?
+ isInterchange([H|_]) :- interchange(L), member(H,L).
+ 
+ 
+ 
+ % prints the line color of the head H of the path [H|T] 
+ lineofhead([X|T]) :- violetline(L), member(X,L), write("Violet");
+		yellow(L), member(X,L), write("Yellow");
+		redline(L), member(X,L), write("Red");
+		magenta(L), member(X,L), write("Magenta");
+		pink(L), member(X,L), write("Pink");
+		blueline(L), member(X,L), write("Blue");
+		orange(L), member(X,L), write("Orange");
+		grey(L), member(X,L), write("Grey");
+		green(L), member(X,L), write("Green").
+		
+%prints the line color of station X	
+ lineof(X) :- violetline(L), member(X,L), write("Violet");
+		yellow(L), member(X,L), write("Yellow");
+		redline(L), member(X,L), write("Red");
+		magenta(L), member(X,L), write("Magenta");
+		pink(L), member(X,L), write("Pink");
+		blueline(L), member(X,L), write("Blue");
+		orange(L), member(X,L), write("Orange");
+		grey(L), member(X,L), write("Grey");
+		green(L), member(X,L), write("Green").
+ 
+ 
+ 
+ 
+ % Main predicate
+ path(X,Y) :- findPath(X,Y,[X],Path), reverse(Path,P), printList(P).
+ 
+ 
+ %helper predicate to the main predicate
+ findPath(X,Y,P,[Y|P]) :- connected(X,Y).
+ findPath(X,Y,Visited,Path) :- connected(X,Z), Z \== Y, \+member(Z,Visited), findPath(Z,Y,[Z|Visited],Path).
+
+
+
+
+
+
+
+% one sample output.
+/*
+
+rajivChowk,barakhamba,mandiHouse,supremeCourt,indraprastha,yamunaBank,laxmiNagar,nirmanVihar,preetVihar,karkarDuma,karkarDumaCourt,krishnaNagar,eastAzadNagar,[Pink->Red]welcome,seelampur,shastriPark,kashmereGate,tisHazari,pulBangash,pratapNagar,shastriNagar,[Red->Green]inderlok,ashokParkMain,punjabiBagh,shivajiPark,
+
+
+*/
